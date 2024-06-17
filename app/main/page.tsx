@@ -1,4 +1,5 @@
 import Header from "@/components/layout/header";
+import Footer from "@/components/layout/Footer";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -8,10 +9,11 @@ import React, { use, useState } from 'react';
 
 
 
-export default function ShopPage() {
+export default function MainPage() {
  
 
-  return (
+  return ( 
+    <>
     <div className="flex flex-col min-h-[100dvh]">
       <Header />
       <main className="flex-1">
@@ -33,7 +35,7 @@ export default function ShopPage() {
                 alt="Герой"
                 className="mx-auto aspect-square overflow-hidden rounded-xl object-cover sm:w-full lg:order-last lg:aspect-square"
                 height="550"
-                src="/placeholder.svg"
+                src="/mainfirst.jpg"
                 width="550"
               />
             </div>
@@ -143,7 +145,7 @@ export default function ShopPage() {
                 alt="О Нас"
                 className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
                 height="310"
-                src="/placeholder.svg"
+                src="/mainsecond.jpg"
                 width="550"
               />
             </div>
@@ -251,5 +253,7 @@ export default function ShopPage() {
         </section>
       </main>
     </div>
+     <Footer/>
+  </>
   );
 }

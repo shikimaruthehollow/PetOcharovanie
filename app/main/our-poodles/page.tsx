@@ -111,7 +111,7 @@ export default function poodles() {
               alt="Щенок Пуделя 1"
               className="w-full h-64 object-cover"
               height={400}
-              src="/placeholder.svg"
+              src="/Berardo.jpg"
               style={{
                 aspectRatio: "600/400",
                 objectFit: "cover",
