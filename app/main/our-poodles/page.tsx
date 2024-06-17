@@ -12,7 +12,7 @@ export default function poodles() {
               alt="Щенок Пуделя 1"
               className="w-full h-64 object-cover"
               height={400}
-              src="/placeholder.svg"
+              src="/strokeofluck.jpg"
               style={{
                 aspectRatio: "600/400",
                 objectFit: "cover",
@@ -45,7 +45,7 @@ export default function poodles() {
               alt="Щенок Пуделя 2"
               className="w-full h-64 object-cover"
               height={400}
-              src="/placeholder.svg"
+              src="/harleydeluxe.jpg"
               style={{
                 aspectRatio: "600/400",
                 objectFit: "cover",
@@ -78,7 +78,7 @@ export default function poodles() {
               alt="Щенок Пуделя 3"
               className="w-full h-64 object-cover"
               height={400}
-              src="/placeholder.svg"
+              src="/graiceaglaya.jpg"
               style={{
                 aspectRatio: "600/400",
                 objectFit: "cover",
@@ -111,7 +111,7 @@ export default function poodles() {
               alt="Щенок Пуделя 1"
               className="w-full h-64 object-cover"
               height={400}
-              src="/Berardo.jpg"
+              src="/berardo.jpg"
               style={{
                 aspectRatio: "600/400",
                 objectFit: "cover",
@@ -144,7 +144,7 @@ export default function poodles() {
               alt="Щенок Пуделя 1"
               className="w-full h-64 object-cover"
               height={400}
-              src="/placeholder.svg"
+              src="/hamandaredlight.jpg"
               style={{
                 aspectRatio: "600/400",
                 objectFit: "cover",
@@ -177,7 +177,7 @@ export default function poodles() {
               alt="Щенок Пуделя 1"
               className="w-full h-64 object-cover"
               height={400}
-              src="/placeholder.svg"
+              src="/felizestrella.jpg"
               style={{
                 aspectRatio: "600/400",
                 objectFit: "cover",

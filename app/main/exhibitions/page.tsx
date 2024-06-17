@@ -13,7 +13,7 @@ export default function page() {
                 alt="Poodles"
                 className="mx-auto aspect-[3/1] overflow-hidden rounded-t-xl object-cover"
                 height={600}
-                src="/placeholder.svg"
+                src="/objvistavki.jpeg"
                 width={1200}
               />
               <div className="space-y-2">
@@ -36,15 +36,15 @@ export default function page() {
                 alt="Poodle Show 1"
                 className="aspect-[4/3] w-full rounded-t-lg object-cover"
                 height={300}
-                src="/placeholder.svg"
+                src="/vistavka1.jpg"
                 width={400}
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold">
-                  Национальная выставка пуделей Америки
+                Подольск: Выставки собак ранга ЧФ,ЧРКФ,САС 2024г.
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  10-12 июня 2023 г. | Нью-Йорк, Нью-Йорк
+                23 июня 2024 г. | Подольск
                 </p>
               </div>
             </div>
@@ -53,15 +53,15 @@ export default function page() {
                 alt="Poodle Show 2"
                 className="aspect-[4/3] w-full rounded-t-lg object-cover"
                 height={300}
-                src="/placeholder.svg"
+                src="/vistavka2.jpg"
                 width={400}
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold">
-                  Национальная специализированная выставка пуделей Америки
+                Усолье-Сибирское: Выставки собак ранга ЧФ,ЧРКФ,САС 2024г.
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  15-20 июля 2023 г. | Чикаго, Иллинойс
+                30 июня 2024 г. | Усолье-Сибирское
                 </p>
               </div>
             </div>
@@ -70,15 +70,15 @@ export default function page() {
                 alt="Poodle Show 3"
                 className="aspect-[4/3] w-full rounded-t-lg object-cover"
                 height={300}
-                src="/placeholder.svg"
+                src="/vistavka3.jpg"
                 width={400}
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold">
-                  Национальная специализированная выставка пуделей Канады
+                Москва: Выставки собак ранга ЧФ,ЧРКФ,САС 2024г.
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  1-4 августа 2023 г. | Торонто, Онтарио
+                14 июля 2024 г. | Москва
                 </p>
               </div>
             </div>
@@ -87,15 +87,15 @@ export default function page() {
                 alt="Poodle Show 4"
                 className="aspect-[4/3] w-full rounded-t-lg object-cover"
                 height={300}
-                src="/placeholder.svg"
+                src="/vistavka4.jpg"
                 width={400}
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold">
-                  Чемпионатская выставка пуделей Великобритании
+                Санкт-Петербург: Выставки собак ранга ЧФ,ЧРКФ,САС 2024г.
                 </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
-                  15-17 сентября 2023 г. | Лондон, Великобритания
+                20 - 21 июля 2024 г. | Санкт-Петербург
                 </p>
               </div>
             </div>

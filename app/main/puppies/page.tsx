@@ -14,7 +14,7 @@ export default function puppies() {
               alt="Пудель-щенок"
               className="mx-auto aspect-square overflow-hidden rounded-xl object-cover"
               height="650"
-              src="/placeholder.svg"
+              src="/uslugiprodaj.jpg"
               width="650"
             />
             <div className="flex flex-col justify-center space-y-6">
@@ -39,7 +39,7 @@ export default function puppies() {
                 alt="Щенок пуделя 1"
                 className="aspect-square overflow-hidden rounded-xl object-cover"
                 height="300"
-                src="/placeholder.svg"
+                src="/plushka.jpg"
                 width="300"
               />
               <div className="space-y-2">
@@ -56,7 +56,7 @@ export default function puppies() {
                 alt="Щенок пуделя 2"
                 className="aspect-square overflow-hidden rounded-xl object-cover"
                 height="300"
-                src="/placeholder.svg"
+                src="/pruzhinka.jpg"
                 width="300"
               />
               <div className="space-y-2">
@@ -73,7 +73,7 @@ export default function puppies() {
                 alt="Щенок пуделя 3"
                 className="aspect-square overflow-hidden rounded-xl object-cover"
                 height="300"
-                src="/placeholder.svg"
+                src="/orabela.jpg"
                 width="300"
               />
               <div className="space-y-2">
@@ -89,7 +89,7 @@ export default function puppies() {
               alt="Щенок пуделя 4"
               className="aspect-square overflow-hidden rounded-xl object-cover"
               height="300"
-              src="/placeholder.svg"
+              src="/kosmeya.jpg"
               width="300" 
               />
               <div className="space-y-2">
@@ -105,7 +105,7 @@ export default function puppies() {
               alt="Щенок пуделя 4"
               className="aspect-square overflow-hidden rounded-xl object-cover"
               height="300"
-              src="/placeholder.svg"
+              src="/massamaro2.jpg"
               width="300" 
               />
               <div className="space-y-2">
@@ -121,7 +121,7 @@ export default function puppies() {
               alt="Щенок пуделя 4"
               className="aspect-square overflow-hidden rounded-xl object-cover"
               height="300"
-              src="/placeholder.svg"
+              src="/nyans.jpg"
               width="300" 
               />
               <div className="space-y-2">

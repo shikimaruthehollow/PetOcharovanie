@@ -23,7 +23,7 @@ export default function p1zd4() {
                 alt="Пудель"
                 className="mx-auto aspect-[4/3] overflow-hidden rounded-xl object-cover"
                 height={600}
-                src="/placeholder.svg"
+                src="/grum1.jpg"
                 width={800}
               />
             </div>
@@ -116,56 +116,56 @@ export default function p1zd4() {
                 alt="Пудель 1"
                 className="aspect-square object-cover rounded-lg"
                 height={400}
-                src="/placeholder.svg"
+                src="/grum2.jpg"
                 width={400}
               />
               <img
                 alt="Пудель 2"
                 className="aspect-square object-cover rounded-lg"
                 height={400}
-                src="/placeholder.svg"
+                src="/grum3.jpg"
                 width={400}
               />
               <img
                 alt="Пудель 3"
                 className="aspect-square object-cover rounded-lg"
                 height={400}
-                src="/placeholder.svg"
+                src="/grum4.jpg"
                 width={400}
               />
               <img
                 alt="Пудель 4"
                 className="aspect-square object-cover rounded-lg"
                 height={400}
-                src="/placeholder.svg"
+                src="/grum5.jpg"
                 width={400}
               />
               <img
                 alt="Пудель 5"
                 className="aspect-square object-cover rounded-lg"
                 height={400}
-                src="/placeholder.svg"
+                src="/grum6.jpg"
                 width={400}
               />
               <img
                 alt="Пудель 6"
                 className="aspect-square object-cover rounded-lg"
                 height={400}
-                src="/placeholder.svg"
+                src="/grum7.jpg"
                 width={400}
               />
               <img
                 alt="Пудель 7"
                 className="aspect-square object-cover rounded-lg"
                 height={400}
-                src="/placeholder.svg"
+                src="/grum8.jpg"
                 width={400}
               />
               <img
                 alt="Пудель 8"
                 className="aspect-square object-cover rounded-lg"
                 height={400}
-                src="/placeholder.svg"
+                src="/grum9.jpg"
                 width={400}
               />
             </div>
