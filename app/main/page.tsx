@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Image from "next/image";
 import React, { use, useState } from 'react';
+import Reserve from "./formreserve/pagereserve";
 
 
 
@@ -87,7 +88,7 @@ export default function MainPage() {
               </div>
               <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
                 <div className="flex flex-col items-center space-y-2">
-                  <Image
+                  <Image 
                     width={400}
                     height={400}
                     alt="Терапевтический Пудель"
@@ -166,88 +167,7 @@ export default function MainPage() {
               </p>
             </div>
             <div className="mx-auto w-full max-w-sm space-y-2">
-              <form className="flex flex-col space-y-2">
-                <Input 
-                  name="name"                                   
-                  className="max-w-lg p-2 border border-gray-300 rounded-md" 
-                  placeholder="ФИО" 
-                  type="text" 
-                />
-                <Input 
-                  name="country"                  
-                  className="max-w-lg p-2 border border-gray-300 rounded-md" 
-                  placeholder="Страна" 
-                  type="text" 
-                />
-                <Input 
-                  name="city"                                  
-                  className="max-w-lg p-2 border border-gray-300 rounded-md" 
-                  placeholder="Город" 
-                  type="text" 
-                />
-                <Input 
-                  name="phone"                                    
-                  className="max-w-lg p-2 border border-gray-300 rounded-md" 
-                  placeholder="Номер телефона" 
-                  type="tel" 
-                />
-                <Input 
-                  name="email"              
-                  className="max-w-lg p-2 border border-gray-300 rounded-md" 
-                  placeholder="Почта" 
-                  type="email" 
-                />
-                <div className="max-w-lg p-2 border border-gray-300 rounded-md">
-                  <select 
-                    name="breedType"
-                    className="w-full outline-none border-gray-300"
-                  >
-                    <option value="Мини">Тип породы</option>
-                    <option value="Средний">Той</option>
-                    <option value="Большой">Мини</option>
-                  </select>
-                </div>
-                <div className="max-w-lg p-2 border border-gray-300 rounded-md">
-                  <select 
-                    name="gender"
-                    className="w-full outline-none"
-                  >
-                    <option value="">Выберите пол</option>
-                    <option value="Кобель">Кобель</option>
-                    <option value="Сука">Сука</option>
-                  </select>
-                </div>
-                <div className="max-w-lg p-2 border border-gray-300 rounded-md">
-                  <select 
-                    name="color"
-                    className="w-full outline-none"
-                  >
-                    <option value="">Выберите окрас</option>
-                    <option value="Коричневый">Коричневый</option>
-                    <option value="Черный">Черный</option>
-                    <option value="Красный">Красный</option>
-                  </select>
-                </div>
-                <div className="max-w-lg p-2 border border-gray-300 rounded-md">
-                  <select 
-                    name="classType"
-                    className="w-full outline-none"
-                  >
-                    <option value="">Выберите класс</option>
-                    <option value="Шоу">Шоу</option>
-                    <option value="Брид">Брид</option>
-                    <option value="Пет">Пет</option>
-                  </select>
-                </div>
-                <Textarea 
-                  name="message"
-                  className="max-w-lg p-2 border border-gray-300 rounded-md" 
-                  placeholder="Сообщение" 
-                />
-                <Button type="submit" className="p-2 bg-blue-500 text-white rounded-md">
-                  Отправить
-                </Button>
-              </form>
+              <Reserve/>
             </div>
           </div>
         </section>
