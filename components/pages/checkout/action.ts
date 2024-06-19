@@ -1,6 +1,6 @@
 "use server";
 
-import { ADMIN_ID, checkoutBot } from "@/lib/grammy";
+import { ADMIN_ID, reserveBot,} from "@/lib/grammy";
 import { createClient } from "@/lib/supabase/server";
 import { Product } from "@/lib/zustand";
 import { headers } from "next/headers";
@@ -21,7 +21,7 @@ export default async function createOrder(data: {
     data: { user },
   } = await supabase.auth.getUser();
 
-  await checkoutBot.api.sendMessage(
+  await reserveBot.api.sendMessage(
     ADMIN_ID,
     `Имя: ${data.firstname}
 Фамилия: ${data.lastname}
