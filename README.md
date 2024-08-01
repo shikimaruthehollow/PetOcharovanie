@@ -40,9 +40,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - [Технологии](#технологии)
 - [Начало работы](#начало-работы)
 - [Тестирование](#тестирование)
-- [Deploy и CI/CD](#deploy-и-ci/cd)
-- [Contributing](#contributing)
-- [To do](#to-do)
 - [Команда проекта](#команда-проекта)
 
 ## Технологии
@@ -97,23 +94,6 @@ npm run build
 ```sh
 npm run test
 ```
-
-## Deploy и CI/CD
--
-
-## Contributing
--
-
-## FAQ 
--
-
-### Зачем вы разработали этот проект?
-Дипломный проект
-
-## To do
-- [x] Добавить крутое README
-- [ ] Всё переписать
-- [ ] New update project
 
 ## Команда проекта
 - [Серебряков Георгий](https://t.me/shikiuser) — beginner Front-End developer
